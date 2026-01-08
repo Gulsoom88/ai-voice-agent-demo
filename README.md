@@ -1,94 +1,51 @@
 # 📞 AI Voice Agent Dashboard
 
-A fully functional AI Voice Agent Dashboard to manage and simulate calls for leads. Built with **FastAPI**, **SQLite**, and **Streamlit**. This project demonstrates real-time lead management, queueing, and call simulation with a clean, interactive dashboard.
+[![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100.0-green?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.26.0-orange?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
 
 ---
 
-## 🌟 Features
-
-- **Real-time lead management** with auto-refresh every 5 seconds  
-- **Lead queue and status tracking** (pending, called, failed)  
-- **Call simulation** with retry logic  
-- **Timeline visualization** for call history  
-- **Lightweight database** (SQLite) for storing leads  
-- **Easy Google Sheets integration** (via API, optional)  
+This project is a fully functional **AI Voice Agent Dashboard** built with **FastAPI** and **Streamlit**. It allows you to manage, queue, and simulate calls to leads.
 
 ---
 
-## 📸 Screenshots
+## 🖥️ Dashboard Features
 
-### Dashboard with Auto-Refresh
-![Auto Refresh](assets/auto_refresh.png)
-
-### Call Timeline / Lead History
-![Call Timeline](assets/timeline.png)
-
-### Backend Leads Endpoint
-![Backend Leads](assets/backend_leads.png)
+- Live auto-refresh every few seconds
+- View all leads and their statuses
+- Call next lead simulation
+- Color-coded lead status: Pending, Called, Failed
+- Call timeline visualization
 
 ---
 
-## 🏗 Architecture Diagram
+## 🛠️ Architecture
 
-![Architecture Diagram](assets/architecture.png)
+![Architecture Diagram](assets/architecture_diagram.png)
 
-**Overview:**
-1. **Google Sheets / API / Lead Sources** →  
-2. **FastAPI Backend** → saves leads to **SQLite**, queues leads for calls →  
-3. **Streamlit Dashboard** → displays leads, call statuses, timeline, and queue stats  
-
----
-
-## ⚙️ Project Structure
-
-# 📞 AI Voice Agent Dashboard
-
-A fully functional AI Voice Agent Dashboard to manage and simulate calls for leads. Built with **FastAPI**, **SQLite**, and **Streamlit**. This project demonstrates real-time lead management, queueing, and call simulation with a clean, interactive dashboard.
-
----
-
-## 🌟 Features
-
-- **Real-time lead management** with auto-refresh every 5 seconds  
-- **Lead queue and status tracking** (pending, called, failed)  
-- **Call simulation** with retry logic  
-- **Timeline visualization** for call history  
-- **Lightweight database** (SQLite) for storing leads  
-- **Easy Google Sheets integration** (via API, optional)  
+- **FastAPI backend** for handling leads
+- **SQLite database** to store lead information
+- **Streamlit frontend** for the dashboard
+- In-memory queue to simulate live calls
 
 ---
 
 ## 📸 Screenshots
 
-### Dashboard with Auto-Refresh
-![Auto Refresh](assets/dashboard_main.png)
+### Dashboard Main View
+![Dashboard](assets/dashboard_main.png)
 
-
-### Backend Leads Endpoint
+### Backend Leads Endpoint (Terminal)
 ![Backend Leads](assets/backend_terminal.png)
 
 ---
 
-## 🏗 Architecture Diagram
+## 🚀 How to Run
 
-![Architecture Diagram](assets/architecture_diagram.png)
+1. Clone the repository:
 
-
-**Overview:**
-1. **Google Sheets / API / Lead Sources** →  
-2. **FastAPI Backend** → saves leads to **SQLite**, queues leads for calls →  
-3. **Streamlit Dashboard** → displays leads, call statuses, timeline, and queue stats  
-
----
-
-## ⚙️ Project Structure
-
-ai-voice-agent-demo/
-├── main.py # FastAPI backend
-├── dashboard.py # Streamlit frontend
-├── db.py # Database models & setup
-├── requirements.txt # Python dependencies
-├── README.md # This README
-├── assets/ # Screenshots & diagrams
-├── .gitignore # Ignore venv, secrets, temp files
-└── leads.db # SQLite database (generated on run)
+```bash
+git clone https://github.com/Gulsoom88/ai-voice-agent-demo.git
+cd ai-voice-agent-demo

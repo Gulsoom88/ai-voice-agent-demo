@@ -1,10 +1,12 @@
 
 ---
 
-## 🚀 How to Run
+✅ **Next steps**:
 
-### 1️⃣ Clone the project
+1. Replace your existing `README.md` with this version.
+2. Commit and push to GitHub:
 
 ```bash
-git clone https://github.com/Gulsoom88/ai-voice-agent-demo.git
-cd ai-voice-agent-demo
+git add README.md
+git commit -m "Add badges and polish README for portfolio"
+git push origin main
