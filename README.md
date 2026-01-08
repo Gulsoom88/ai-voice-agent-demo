@@ -63,8 +63,6 @@ A fully functional AI Voice Agent Dashboard to manage and simulate calls for lea
 ### Dashboard with Auto-Refresh
 ![Auto Refresh](assets/dashboard_main.png)
 
-### Call Timeline / Lead History
-![Call Timeline](assets/timeline.png)
 
 ### Backend Leads Endpoint
 ![Backend Leads](assets/backend_terminal.png)
