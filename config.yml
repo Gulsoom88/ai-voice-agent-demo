@@ -1,12 +1,15 @@
 
 ---
 
-✅ **Next steps**:
 
-1. Replace your existing `README.md` with this version.
-2. Commit and push to GitHub:
+
+✅ Steps to use:  
+1. Open  current `README.md` file in your project.  
+2. Replace all its content with the code above.  
+3. Save the file.  
+4. Push it to GitHub:
 
 ```bash
 git add README.md
-git commit -m "Add badges and polish README for portfolio"
+git commit -m "Update README to full demo version with roadmap"
 git push origin main
