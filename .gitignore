@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.db
+.env
+
+# Secrets
+google-sheets.json
+
+# Database
+leads.db
